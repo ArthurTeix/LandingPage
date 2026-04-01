@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    box-sizing:border-box;
 }
 
 /* 
@@ -81,12 +82,11 @@ p{
 
 table{
     min-width: 60rem;
-    width: 100%;
+    width: auto;
     border-collapse: collapse;
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
     font-style: normal;
-    overflow-x: auto;
 }
 
 table caption{
