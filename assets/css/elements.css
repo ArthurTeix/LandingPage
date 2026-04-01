@@ -78,3 +78,32 @@ a {
 p{
     margin-bottom: 3rem;
 }
+
+table{
+    min-width: 60rem;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    overflow-x: auto;
+}
+
+table caption{
+    font-size: 1.6rem;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table td, table th{
+    padding: 1rem;
+    text-align: left;
+    border: 0.1rem solid var(--light-gray-color);
+    white-space: nowrap;
+}
+
+tfoot td, table th{
+    color: var(--primary-color);
+    background-color: var(--light-gray-color);
+}
