@@ -39,6 +39,7 @@
     position: relative;
 }
 
+/* RESPONSIVIDADE EM TELAS MENORES */
 .menu ul li a::after{
     content: '';
     position: absolute;

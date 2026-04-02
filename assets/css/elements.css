@@ -1,3 +1,4 @@
+/* CONFIGURAÇÕES GLOBAIS DAS TAGS */
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,8 @@
 }
 
 /* 
+FONTES DO GOOGLE FONTS 
+
 .montserrat-<uniquifier> {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -80,6 +83,7 @@ p{
     margin-bottom: 3rem;
 }
 
+/* TAGS DA TABELA */
 table{
     min-width: 60rem;
     width: auto;

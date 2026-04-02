@@ -1,3 +1,4 @@
+/* PRIMEIRA SEÇÃO */
 .intro-content{
     position: relative;
     /* top: -8rem; */
@@ -19,6 +20,7 @@
     height: auto;
 }
 
+/* SEÇÃO TOP 3 */
 .top3-content{
     max-width: 64rem;
     min-height: 100vh;
@@ -27,6 +29,7 @@
     text-align: center;
 }
 
+/* SEÇÃO JOBS E GALLERY */
 .grid-one-content{
     min-height: 100vh;
     display: flex;
@@ -67,7 +70,7 @@
     transform: rotate(5deg);
 }
 
-
+/* GALLERY */
 .gallery-img{
     width: 100%;
     max-width: 36rem;
@@ -84,11 +87,13 @@
     transform: scale(1.2) rotate(3deg);
 }
 
+/* SEÇÃO TABELA */
 .responsive-table {
     width: 100%;
     overflow-x: auto;
 }
 
+/* SEÇÃO FORMS */
 .contact-form{
     grid-column: span 2;
     margin-right: 2.5rem;
@@ -149,6 +154,7 @@
     color: #00000068;
 }
 
+/* FOOTER */
 .footer{
     text-align: center;
     font-size: 1.6rem;
@@ -163,6 +169,7 @@
     padding: 1rem 0;
 }
 
+/* BOTÃO PARA VOLTAR AO HOME */
 .back-to-top{
     position: fixed;
     bottom: 2rem;
@@ -179,6 +186,7 @@
     transform: rotate(270deg);
 }
 
+/* RESPONSIVIDADE EM TELAS MENORES */
 @media (max-width: 850px){
     .intro-content, .grid{
         grid-template-columns:1fr 1fr;
