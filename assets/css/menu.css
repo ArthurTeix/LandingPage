@@ -54,3 +54,54 @@
     width: 50%;
     left: 25%;
 }
+
+.close-menu{
+        display: none;
+    }
+
+@media (max-width: 700px){
+    .menu{
+        bottom: 0;
+        text-align: center;
+        display: none;
+    }
+
+    .menu-content{
+        height: 100vh;
+    }
+
+    .menu-content, .menu-content ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .close-menu-label::after{
+        content: '☰';
+        position: fixed;
+        z-index: 2;
+        top: 1.5rem;
+        right: 2rem;
+        border-radius: 30%;
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    .close-menu:checked~.menu{
+        display: block;
+    }
+
+    .close-menu:checked~.close-menu-label::after{
+        content: '×';
+    }
+
+    .menu-spacing{
+        display: none;
+    }
+}
