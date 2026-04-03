@@ -187,6 +187,27 @@
 }
 
 /* RESPONSIVIDADE EM TELAS MENORES */
+@media (max-width: 564px){
+    .section{
+        min-width: 100vh;
+    }
+
+    .main-bg{
+        min-width: 100vh;
+    }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 100vh;
+    }
+
+    .footer p::after{
+        content: '✰';
+    }
+}
+
 @media (max-width: 850px){
     .intro-content, .grid{
         grid-template-columns:1fr 1fr;
